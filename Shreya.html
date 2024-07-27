@@ -1,0 +1,419 @@
+<html>
+    <head>
+        <title>
+         Shreya Information
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+        body {
+            background-color: lightcyan;
+        }
+        .germania-one-regular {
+            font-family: "Germania One", system-ui;
+           
+          }
+          .kufam {
+            font-family: "Kufam", sans-serif;
+         
+          }
+          
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: lightseagreen;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            font-size: 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        nav ul li a:hover {
+            color: white;
+            font-size: 1.5rem;
+        }
+        .left {
+            font-size: 1.8rem;
+        }
+        .Home {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+        }
+        .Home > div {
+            width: 30%;
+        }
+        .leftSection{
+            font-family:"Germania One", system-ui;
+        font-size: 1.7rem;
+        margin: 70px 0;
+        margin-left: 50px;
+        }
+        .leftSection .btn {
+            margin-right:500px;
+            margin-top: 100px;
+            background-color: green;
+            padding:  10px 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+           font-size: 18px;
+           text-decoration: none;
+        } 
+         .btn a {
+            text-decoration: none;
+            color:white;
+         }
+       
+        .leftSection  div{
+           font-family:"Kufam" , sans-serif;
+            font-size: 1.5rem;
+            
+        }
+        .leftSection span {
+            font-size: 55px;
+            font-family:"Germania One", system-ui;
+            margin-left: 40px;
+        }
+        .rightSection img {
+            width: 90%;
+            margin: 60px 0;
+            margin-left: 280px;
+        }
+        .icon i {
+            background-color: green;
+            color: white;
+            padding: 5px 5px;
+            border-radius: 50%;
+            margin: 30px 40px 0px 290px;
+            font-size: 27px;
+        }
+        #element {
+        color: darkgoldenrod;
+        font-family:"Kufam" , sans-serif ;
+        font-size: 1.5rem;
+        }
+        .secondSection {
+            display: flex;
+            margin-left: 150px;
+            font-size: 30px;
+        }
+        .secondSection i {
+           background-color: green;
+           border-radius: 50%;
+           color: black; 
+           padding: 2px 2px;
+           margin: 5px 10px 20px 10;
+        }
+        .about{
+            display: flex;
+            align-items: center;
+            color:black;
+            float: left;
+            background-color: rgb(175, 235, 216);
+            background-position: cover;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .about-text{
+        float:left;
+        margin-left: 50px;
+        }
+        .about-text h2 {
+            font-size: 40px;
+            font-family: "Germania One", system-ui;
+            margin-top: 5px;
+        }
+        .about-text p {
+            font-size: 22px;
+            line-height: 1.6;
+            margin-bottom: 4 rem;
+            color: black;
+            font-family: "Kufam", sans-serif;
+        }
+          .btn {
+            background-color: green;
+            padding:  10px 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+           font-size: 18px;
+           top: 400px;
+        }
+        .container {
+            background-color: lightcyan;
+            width: 100%;
+            height: 100%;
+            margin-top: 50%;
+            
+        }
+        .container .heading {
+            text-align: center;
+            padding-bottom: 20px;
+            font-family:  "Germania One", system-ui;
+            color:black;
+            font-size: 40px;
+            top:30px;
+        }
+        .box h2{
+            text-align: center;
+            margin-top: 10px;      }
+        .container .box-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap:10px;
+        }
+        
+        .container .box-container .box{
+            border-radius: 5px;
+           background-color: white;
+            text-align: center;
+            padding:30px 20px;
+            width: 300px;
+            height: 300px;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        .box .btn1 {
+            background-color: lightseagreen;
+            display: inline;
+            height: 40px;
+            width: 100px;
+            border-radius: 10px;
+            padding: 10px 10px;
+            margin-top: 10px;
+        }
+        .box p {
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        .project {
+            width: 100%;
+            height: 150%;
+            margin-top: 5%;
+            background-color: rgb(175, 230, 211);
+        }
+        .project .text {
+            text-align: center;
+            font-size: 40px;
+            font-family: "Germania One", system-ui;;
+        }
+        .project .projects-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap:10px;
+            margin-top: 30px;
+            margin-left: 30px;
+             
+        }
+        .project .projects-container .One{
+            border-radius: 5px;
+            width: 400px;
+            height: 300px;
+            text-align: center;
+            padding:30px 20px; 
+        }
+        
+        .project .projects-container .One img{
+            height: 200px;
+            width: 450px;
+        }
+        .project .projects-container .One h3{
+            color:#444;
+            font-size: 22px;
+            padding:10px 0;
+        }
+        .contact{
+            background-image:linear-gradient(to bottom ,lightcyan 0% ,lightcyan 50% ,grey 50%, grey 100%);
+            width: 100%;
+            height: 90%;
+        }
+        .social{
+            align-items: center;
+            display: flex;
+            width: 60px;
+            height: 60px;
+            margin-left: 480px;
+            margin-top: 160px;
+            background: transparent;
+            border-radius: 50%;
+            font-size: 28px;
+            text-decoration: none;
+            }
+            .social i {
+              background-color:lightgreen;
+              color: black;
+              border-radius: 50%;
+              padding: 5px;
+              margin-top: 10px;
+              margin-left: 20px;
+            }
+            .copy i {
+                font-size: 20px;
+                margin-left: 480px;
+                margin-top: 400px;
+               }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left">Shreya's portfolio </div>
+                    <div class="right">
+                        <ul>
+                          <li> <a href="Shreya.html">Home</a></li> 
+                           <li><a href="Shreyabout.html">About</a></li> 
+                          <li> <a href="Shreyaskills.html">Skills</a></li> 
+                         <li> <a href="Shreyaproject.html">Projects</a></li> 
+                         <li> <a href="shreyacontact.html"><i class='bx bx-sun'></i>Contact me</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+      <section class="Home">
+        <div class="leftSection"> 
+         Hi there I'm <br><span>Shreya Urkude</span><br>
+             <div>I am<span id="element"></span> </div>
+                <div class="button">
+                    <button class="btn"><a href="https://www.linkedin.com/in/shreya-urkude-3bb9142a3">Let'sConnect</a></button>
+                </div>
+             </div>
+
+
+            <div class="rightSection">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhMazd2qqjXMv0viwWjoZXMVN2z8ud0W4sYQ&s" alt="">
+            </div>
+            <div class="icon">
+            <a href="#"><i class='bx bxl-facebook'></i><br>
+                <a href="#"><i class='bx bxl-instagram'></i></a><br>
+                <a href="https://github.com/ShreyaUrkude"><i class='bx bxl-github'></i></a><br>
+                <a href="https://www.linkedin.com/in/shreya-urkude-3bb9142a3"><i class='bx bxl-linkedin'></i></a> </a>
+                </div>
+                
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <div class="about-text">
+         <h2>About <span> Me </span></h2> <br>
+         <br>
+         <p>I am Shreya Urkude a skill web desginer, my passsion lies in creating <br>captivating website desgin
+            and implementing them throught<br> frontend web developement. <br>
+            Studying at JD College of Engineerning and Management at Information<br> Technology ,Nagpur. <br>
+       I have done Internship at Internpe ,Motion Cuts and TechnoHacks and developed <br>so many Projects. <br>
+  I believe that a well desgined website should not only look visually appeling <br> 
+ but also provide a smooth and enjoyable 
+            interactions for viisitors. <br> 
+            <br>
+            <a href="C:\Users\SHREYA URKUDE\Downloads/shreya.pdf" class="btn">My Resume</a>
+            <br>
+            <br>
+        </div>
+        </div>
+         </section>
+
+         <section  class="container">
+        <h1 class="heading">SKILLS</h1> <br>
+            <div class="box-container">
+    
+                <div class="box">
+                    <h2>Porgramming Skills</h2>  <br>                
+                     <button class="btn1">HMTL </button><br>
+                     <button class="btn1">CSS </button><br>
+                     <button class="btn1">JAVASCRIPT </button><br>
+                     <button class="btn1">PYTHON </button>
+                     <button class="btn1">JAVA </button>
+                     <button class="btn1">REACT JS </button>
+                     <button class="btn1">SQL</button>
+                    
+                </div>
+        
+                <div class="box">
+                    <h2>Professional skills </h2> <br>
+                    <p>Communication</p>
+                    <p>Leadership</p>
+                    <p>Creativity</p>
+                    <p>Problem  Solving</p> <br>
+
+                    <h2> Languages</h2>
+                    <p>English </p>
+                    <p>Hindi </p>
+                    <p>Marathi </p>
+                </div>
+                </div>
+                </section>
+                <section class="project">
+                    
+                    <div class="text">Projects </div>
+                    <div class="Projects-container">
+    
+                        <div class="One">
+                            <img src="C:\Users\SHREYA URKUDE\Desktop\Personal/Screenshot (22).png" alt="">
+                            <h3>TODO-LIST</h3>
+                        
+                        </div>
+                        <div class="One">
+                            <img src="C:\Users\SHREYA URKUDE\Desktop\Personal/Screenshot (23).png" alt="">
+                            <h3>PRICING PAGE PROJECT</h3>
+                        </div> 
+
+                        <div class="One">
+                            <img src="C:\Users\SHREYA URKUDE\Desktop\Personal/Screenshot (27).png" alt="">
+                            <h3>SPOTIFY CLONE</h3>
+                        
+                        </div>
+            
+                        <div class="One">
+                            <img src="C:\Users\SHREYA URKUDE\Pictures\Screenshots/Screenshot (32).png" alt="">
+                            <h3>REGISTRATION FORM</h3>
+                        </div> 
+                    </div>
+
+
+                    </section>
+
+                    <section class="contact">
+                        <div class="Social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                          <a href="#"><i class='bx bxl-instagram'></i></a>
+                          <a href="https://github.com/ShreyaUrkude"><i class='bx bxl-github'></i></a>
+                          <a href="https://www.linkedin.com/in/shreya-urkude-3bb9142a3"><i class='bx bxl-linkedin'></i></a>
+                          </div>
+                          
+                          <div class="copy">
+                            <i class='bx bx-copyright'></i> 2024 Shreya.All Right Reserved
+                            </div>
+                     </section>   
+               </main>
+
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web developer.', 'Web Desginer.','Java Developer.','Python Developer.'],
+              typeSpeed: 40,
+            });
+          </script>
+        
+    </body>
+</html>
